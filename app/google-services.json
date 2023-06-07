@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "548046262629",
+    "firebase_url": "https://cominghome-2f6a2-default-rtdb.firebaseio.com",
+    "project_id": "cominghome-2f6a2",
+    "storage_bucket": "cominghome-2f6a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:548046262629:android:d29dba15afb43645ced18c",
+        "android_client_info": {
+          "package_name": "org.techtown.diary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "548046262629-9mk5sgdkev16rfkr1mhhdfim72n38p5b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGYMloJkp4rKD8ezlir6gBL-MhQwjcVq8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "548046262629-9mk5sgdkev16rfkr1mhhdfim72n38p5b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

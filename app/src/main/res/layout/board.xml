@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(유기동물 등록 페이지)"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:layout_centerInParent="true"/>
+
+
+    <LinearLayout
+        android:id="@+id/bottom_navigation_bar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:background="#ffffff"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_home"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="홈"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/ic_home"/>
+
+        <Button
+            android:id="@+id/button_board"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="게시판"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/ic_board"/>
+
+        <Button
+            android:id="@+id/button_quiz"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="퀴즈"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/ic_quiz"/>
+
+        <Button
+            android:id="@+id/button_mypage"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="마이페이지"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/ic_mypage"/>
+    </LinearLayout>
+
+</RelativeLayout>
